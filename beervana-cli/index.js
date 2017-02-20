@@ -1,5 +1,4 @@
-const scrapeIt = require("scrape-it");
-var scb = require("./scrapeBeervana");
+var scb = require("beervana-scraper");
 
 scb().then(page => {
     console.log(page.beer);
