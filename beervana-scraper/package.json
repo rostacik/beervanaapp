@@ -1,5 +1,5 @@
 {
-  "name": "beervanascraper",
+  "name": "beervana-scraper",
   "version": "0.0.1",
   "description": "just scraper for beervana web page",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "nodejs",
     "scraper"
   ],
-  "author": "dusan",
+  "author": "dusan_rostar",
   "license": "ISC",
   "dependencies": {
     "scrape-it": "^3.2.2"
