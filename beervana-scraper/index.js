@@ -13,7 +13,7 @@ function scrapeBeervana() {
                 remaining: {
                     selector: 'div.remain-txt span',
                     how: 'text',
-                    convert: x => x.replace(/Nezmeškaj/gi, '')
+                    convert: x => x.replace(/Nezmeškaj/gi, '').replace(/Novinka/gi, '')
                 },
                 description: {
                     selector: 'div.share-open div.center-box p',
