@@ -1,7 +1,7 @@
 var scb = require('beervana-scraper');
 
 /**
- * yeeee, format that object, yeeee, like that * 
+ * yeeeea, format that object, yeeeeaaaa, like that * 
  * @param {beer} beer object to be serialized
  * @returns {string} nice result
  */
