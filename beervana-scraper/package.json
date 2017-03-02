@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://dusan.visualstudio.com/DefaultCollection/_git/beervanaapp"
+    "url": "https://github.com/rostacik/beervanaapp.git"
   },
   "keywords": [
     "node",
