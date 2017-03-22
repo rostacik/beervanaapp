@@ -1,0 +1,25 @@
+{
+  "name": "beervanawebjob",
+  "version": "0.0.1",
+  "description": "beervana webjob takes data from beervana web page and saves it to azure table storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rostacik/beervanaapp.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "scraper"
+  ],
+  "author": "dusan_rostar",
+  "license": "ISC",
+  "dependencies": {
+    "azure-storage": "^2.1.0",
+    "beervana-scraper": "file:../beervana-scraper",
+    "nconf": "^0.8.4"
+  }
+}
