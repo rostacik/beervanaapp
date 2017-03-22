@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Small [beervana](http://beervana.sk/) project to test NodeJS apps in Azure cloud. Parts of app scrapes beervana page for available beer info and levels, displays data on command line, saves data to Azure table storage and presents them on page, or offers API that other developers can talk to, if they want to create own clients.
+Small [www.beervana.sk](http://www.beervana.sk/) project to test NodeJS apps in Azure cloud. Parts of app scrapes beervana page for available beer info and levels, displays data on command line, saves data to Azure table storage and presents them on page, or offers API that other developers can talk to, if they want to create own clients.
 
 ## App parts
 
