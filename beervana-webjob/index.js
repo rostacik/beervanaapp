@@ -1,7 +1,7 @@
 var azure = require('azure-storage');
 var nconf = require('nconf');
 var scraper = require('beervana-scraper');
-var uuid = require('node-uuid');
+var uuid = require('uuid/v4');
 
 //config data from config.json
 nconf.argv().env().file({ file: __dirname + '\\config.json' });
@@ -30,7 +30,7 @@ scraper().then(page => {
         beerBatch.insertEntity(beerBatchItem, { echoContent: true });
     }
 
-    tableSvc.executeBatch(tableName, beerBatch, function (error, result, response) {
+    tableSvc.executeBatch(tableName, beerBatch, function(error, result, response) {
         if (!error) {
             for (let beer of page.beer) {
                 console.log(beer.beerName);

@@ -20,6 +20,7 @@
   "dependencies": {
     "azure-storage": "^2.1.0",
     "beervana-scraper": "file:../beervana-scraper",
-    "nconf": "^0.8.4"
+    "nconf": "^0.8.4",
+    "uuid": "^3.0.1"
   }
 }
